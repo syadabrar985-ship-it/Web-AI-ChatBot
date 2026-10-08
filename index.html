@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chatbot Widget</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Your website content -->
+    <div class="website-content">
+        <h1>My Website</h1>
+        <p>This represents the client's website.</p>
+    </div>
+
+
+    <!-- Chatbot Window -->
+    <div id="chat-container" class="chat-container">
+
+        <header class="chat-header">
+
+            <div class="bot-info">
+
+                <div class="bot-avatar">
+                    AI
+                </div>
+
+                <div>
+                    <h2>AI Assistant</h2>
+                    <p>Ask me anything</p>
+                </div>
+
+            </div>
+
+            <button id="close-chat">×</button>
+
+        </header>
+
+
+        <main id="chat-box" class="chat-box">
+
+            <div class="message bot-message">
+
+                <div class="avatar">
+                    AI
+                </div>
+
+                <div class="message-content">
+                    <p>Hello! 👋 How can I help you?</p>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask something..."
+                autocomplete="off"
+            >
+
+            <button id="send-button">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Floating Chatbot Button -->
+    <button id="chat-toggle" class="chat-toggle">
+        AI
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
